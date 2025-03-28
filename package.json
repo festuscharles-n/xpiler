@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@swc/core": "^1.11.13",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "name": "xpiler",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js to executable compiler",
+  "main": "index.js",
+  "bin": {
+    "xpiler": "src/cli.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prepublishOnly": "sh build.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs"
+}
