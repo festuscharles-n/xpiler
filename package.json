@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prepublishOnly": "sh build.sh"
+    "prepublishOnly": "sh scripts/build.sh"
   },
   "keywords": [],
   "author": "",
