@@ -2,7 +2,7 @@ import fs from "fs";
 import https from "https";
 import path from "path";
 
-const repo = "yourgithubuser/xpiler";
+const repo = "festuscharles-n/xpiler";
 const latestReleaseURL = `https://api.github.com/repos/${repo}/releases/latest`;
 
 async function getLatestVersion() {
