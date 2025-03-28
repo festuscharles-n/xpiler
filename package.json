@@ -8,6 +8,7 @@
   "version": "1.0.0",
   "description": "A lightweight Node.js to executable compiler",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "xpiler": "src/cli.js"
   },
@@ -17,6 +18,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "type": "commonjs"
+  "license": "MIT"
 }
